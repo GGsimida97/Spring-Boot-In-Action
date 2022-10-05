@@ -15,7 +15,7 @@ public class TestController {
   @GetMapping("/uid")
   public String genUid() {
 
-    return String.valueOf(uidGenService.getUid());
+    return String.valueOf("唯一ID号为" + uidGenService.getUid());
   }
 
 
